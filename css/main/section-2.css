@@ -36,9 +36,11 @@
 	width: 100%;
 }
 @media screen and (min-width: 768px) {
-	.section-2 div button {
+	.texts {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		margin-bottom: 1rem;
-		width: auto;
 	}
 }
 /* sub-section-2  */
@@ -104,9 +106,15 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 1rem;
+	margin-top: 4rem;
 	width: 100%;
 }
 .load-more button {
 	display: block;
+}
+@media screen and (min-width: 768px) {
+	.load-more button {
+		width: 50%;
+		margin: 0 38%;
+	}
 }

@@ -20,7 +20,7 @@ footer {
 	}
 	.footer-content .footer-logo {
 		flex-basis: 25%;
-		padding-top: 10%;
+		align-items: center;
 	}
 	.footer-content .Links {
 		display: flex;

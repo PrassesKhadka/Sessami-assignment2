@@ -47,6 +47,9 @@
 	padding: 0.3rem 0.4rem;
 	background-color: white;
 }
+.navbar ul:last-child div {
+	cursor: pointer;
+}
 .navbar ul:last-child div i:last-child {
 	border: 1px solid black;
 	border-radius: 50%;

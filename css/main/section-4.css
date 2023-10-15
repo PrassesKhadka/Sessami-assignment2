@@ -8,7 +8,14 @@
 	flex-wrap: wrap;
 	padding: 5rem 5vw;
 }
-
+@media screen and (min-width: 768px) {
+	.section-4 div {
+		flex-basis: 50%;
+	}
+	.section-4 section {
+		flex-basis: 50%;
+	}
+}
 /* Texts  */
 .section-4 div {
 	display: flex;
@@ -33,7 +40,7 @@
 }
 @media screen and (min-width: 768px) {
 	.section-4 button {
-		width: 25%;
+		width: 50%;
 	}
 }
 /* Discover cities grid */

@@ -29,15 +29,14 @@ footer {
 	}
 	.footer-content .other-links {
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		gap: 2rem;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-start;
 	}
 	.other-links ul {
 		display: flex;
 		flex-direction: row;
-		gap: 0.5rem;
+		gap: 2rem;
 	}
 }
 .footer-content section {

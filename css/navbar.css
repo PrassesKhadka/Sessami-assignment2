@@ -18,6 +18,20 @@
 	align-items: center;
 	justify-content: space-between;
 }
+.navbar li:last-child {
+	display: flex;
+	align-items: center;
+}
+@media screen and (min-width: 768px) {
+	.navbar li:last-child button {
+		display: block;
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 22.5px;
+		text-align: center;
+		margin-right: 1rem;
+	}
+}
 
 /* Search bar */
 .navbar li:nth-child(2) {

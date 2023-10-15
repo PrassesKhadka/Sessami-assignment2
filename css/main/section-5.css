@@ -6,6 +6,30 @@
 	width: 100%;
 	border-radius: 5px;
 }
+.section-5 section {
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	padding: 1rem;
+	margin: 1rem 0;
+	background-color: white;
+	padding-top: 2rem;
+}
+.section-5 section:hover {
+	background-color: whitesmoke;
+}
+.section-5 section h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.7rem;
+}
+.section-5 section p {
+	font-size: 1rem;
+	font-weight: 500;
+	margin: 1rem 0;
+	line-height: 1.5rem;
+	color: #6b7280;
+}
+
 @media screen and (min-width: 768px) {
 	.section-5 {
 		display: flex;
@@ -31,32 +55,8 @@
 	.section-5 section {
 		position: absolute;
 		right: 55vw;
-		border-radius: 5px;
 		z-index: 1;
-		padding: 3rem 1rem;
-		margin: 0;
+		padding-top: 2.5rem;
+		padding-bottom: 1.2rem;
 	}
-}
-.section-5 section {
-	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
-	padding: 1rem;
-	margin: 1rem 0;
-	background-color: white;
-}
-.section-5 section:hover {
-	background-color: whitesmoke;
-}
-.section-5 section h2 {
-	font-family: "Jakarta";
-	font-size: 1.5rem;
-	font-weight: 600;
-	line-height: 1.7rem;
-}
-.section-5 section p {
-	font-family: "Figtree";
-	font-size: 1rem;
-	font-weight: 500;
-	margin: 1rem 0;
-	line-height: 1rem;
 }

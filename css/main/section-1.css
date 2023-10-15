@@ -1,6 +1,6 @@
 .section-1 {
 	background-image: url("../../images/background-image.png");
-	background-size: auto;
+	background-size: cover;
 	background-position: 80%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -34,4 +34,27 @@
 	font-size: 1rem;
 	line-height: 1.4rem;
 	margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+	.section-1 article {
+		top: 25%;
+		width: 50%;
+		backdrop-filter: none;
+		background-color: transparent;
+		color: black;
+		padding: 2rem 1rem;
+	}
+	.section-1 article h1 {
+		font-size: 52px;
+		font-weight: 500;
+		line-height: 62.4px;
+		word-spacing: -2px;
+		letter-spacing: -3px;
+	}
+	.section-1 article p {
+		font-size: 20px;
+		line-height: 27.2px;
+		color: #000000;
+	}
 }

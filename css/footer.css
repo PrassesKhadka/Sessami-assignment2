@@ -9,15 +9,43 @@ footer {
 	padding-top: 2rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+	.footer-content {
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 5rem;
+	}
+	.footer-content .footer-logo {
+		flex-basis: 25%;
+		padding-top: 10%;
+	}
+	.footer-content .Links {
+		display: flex;
+		flex-basis: 50%;
+		gap: 5rem;
+	}
+	.footer-content .other-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		gap: 2rem;
+	}
+	.other-links ul {
+		display: flex;
+		flex-direction: row;
+		gap: 0.5rem;
+	}
 }
 .footer-content section {
 	margin: 1rem 0;
 }
 
 .footer-content section:first-child img {
-	display: inline-block;
+	display: block;
 	margin-right: 0.25rem;
 }
 .footer-content h2 {

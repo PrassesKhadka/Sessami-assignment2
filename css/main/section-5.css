@@ -6,16 +6,19 @@
 	width: 100%;
 	border-radius: 5px;
 }
+.section-5 img:hover {
+	background-size: 10%;
+}
 .section-5 section {
 	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 	border-radius: 18px;
 	padding: 1rem;
 	margin: 1rem 0;
-	background-color: white;
+	background-color: whitesmoke;
 	padding-top: 2rem;
 }
 .section-5 section:hover {
-	background-color: whitesmoke;
+	transform: scale(1.1);
 }
 .section-5 section h2 {
 	font-size: 1.5rem;

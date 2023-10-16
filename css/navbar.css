@@ -64,6 +64,9 @@
 .navbar ul:last-child div {
 	cursor: pointer;
 }
+.navbar ul:last-child div:hover {
+	background-color: #d6d6d6;
+}
 .navbar ul:last-child div i:last-child {
 	border: 1px solid black;
 	border-radius: 50%;

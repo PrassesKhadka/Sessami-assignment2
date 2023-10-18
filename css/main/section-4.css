@@ -40,16 +40,26 @@
 }
 @media screen and (min-width: 768px) {
 	.section-4 button {
-		width: 40%;
+		width: 30%;
 	}
 	.section-4 h2 {
 		font-size: 2rem;
 	}
 	.section-4 p {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		margin: 1rem 0;
 	}
 }
+@media screen and (min-width: 1024px) {
+	.section-4 h2 {
+		font-size: 2.5rem;
+	}
+	.section-4 p {
+		font-size: 1.5rem;
+		margin: 1.2rem 0;
+	}
+}
+
 /* Discover cities grid */
 .section-4 section {
 	display: grid;
@@ -67,6 +77,7 @@
 .section-4 section figure img:hover {
 	transform: translateY(-15px);
 	box-shadow: 5px 10px 18px #b73d5c;
+	transition: 0.5s;
 }
 .section-4 section figure figcaption {
 	font-weight: 600;

@@ -9,7 +9,6 @@
 	color: #ffffff;
 	font-weight: 500;
 	font-size: 1rem;
-	text-transform: uppercase;
 }
 .button:hover {
 	background: linear-gradient(90deg, #e8336a 100%, #c12a58 100%);

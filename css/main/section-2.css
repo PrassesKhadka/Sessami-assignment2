@@ -79,11 +79,12 @@
 	}
 }
 /* For 1024px onward small screen laptops */
-@media screen and (min-width: 1024x) and (max-width: 1439px) {
-	.subsection-2 figure:last-child {
-		border: 5px solid green;
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	.subsection-2 figure {
+		width: 22%;
 	}
 }
+
 .subsection-2 figure img {
 	display: inline-block;
 	width: 100%;
